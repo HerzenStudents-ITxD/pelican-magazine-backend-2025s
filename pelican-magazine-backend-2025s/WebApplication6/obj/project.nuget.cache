@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ez23dLnSHEs=",
+  "dgSpecHash": "FuKUPTEwGQM=",
   "success": true,
-  "projectFilePath": "C:\\rgf\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj",
+  "projectFilePath": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elede\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\elede\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

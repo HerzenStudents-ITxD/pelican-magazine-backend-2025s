@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\rgf\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj": {}
+    "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\rgf\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj": {
+    "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\rgf\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj",
+        "projectUniqueName": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\rgf\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj",
+        "projectPath": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Backend.csproj",
         "packagesPath": "C:\\Users\\elede\\.nuget\\packages\\",
-        "outputPath": "C:\\rgf\\pelican-magazine-backend-2025s\\WebApplication6\\obj\\",
+        "outputPath": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
