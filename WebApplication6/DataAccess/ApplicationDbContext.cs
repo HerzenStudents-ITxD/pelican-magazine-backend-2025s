@@ -20,9 +20,11 @@ public class ApplicationDbContext : DbContext
     public DbSet<DbArticleTheme> ArticleThemes { get; set; }
     public DbSet<DbLike> Likes { get; set; }
     public DbSet<DbArticleReview> ArticleReviews { get; set; }
+    public DbSet<DbArticleModeration> ArticleModerations { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.ApplyConfiguration(new DbArticleModerationConfiguration());
         modelBuilder.Entity<DbUser>(entity =>
         {
             entity.Property(u => u.Nickname).HasMaxLength(50);

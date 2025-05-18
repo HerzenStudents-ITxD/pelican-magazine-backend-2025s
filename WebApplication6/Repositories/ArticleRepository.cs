@@ -1,4 +1,5 @@
-﻿using Backend.DataAccess;
+﻿using Backend.Contracts.Enums;
+using Backend.DataAccess;
 using Backend.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -60,5 +61,17 @@ public class ArticleRepository
     public async Task<int> GetLikeCountAsync(Guid articleId)
     {
         return await _context.Likes.CountAsync(l => l.ArticleId == articleId);
+    }
+
+    public async Task<List<DbArticle>> GetByStatusAsync(ArticleStatus status)
+    {
+        return await _context.Articles
+            .Where(a => a.Status == status)
+            .Include(a => a.Author)
+            .Include(a => a.ArticleAgeCategories)
+                .ThenInclude(aac => aac.AgeCategory)
+            .Include(a => a.ArticleThemes)
+                .ThenInclude(at => at.Theme)
+            .ToListAsync();
     }
 }

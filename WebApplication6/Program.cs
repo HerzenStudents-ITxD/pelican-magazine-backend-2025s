@@ -48,6 +48,7 @@ builder.Services.AddScoped<ThemeRepository>();
 builder.Services.AddScoped<JwtService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<LikeRepository>();
+builder.Services.AddScoped<ArticleModerationRepository>();
 
 // Настройка аутентификации
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

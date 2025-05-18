@@ -544,6 +544,90 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.Controllers.ModerationController",
+    "Method": "ApproveArticle",
+    "RelativePath": "api/Moderation/approve/{articleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articleId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ModerationController",
+    "Method": "GetArticleModerationHistory",
+    "RelativePath": "api/Moderation/article/{articleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articleId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ModerationController",
+    "Method": "GetPendingArticles",
+    "RelativePath": "api/Moderation/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ModerationController",
+    "Method": "RejectArticle",
+    "RelativePath": "api/Moderation/reject/{articleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articleId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Backend.Contracts.Requests.RejectArticleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ModerationController",
+    "Method": "RequestRevision",
+    "RelativePath": "api/Moderation/request-revision/{articleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articleId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Backend.Contracts.Requests.RequestRevisionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.Controllers.ThemesController",
     "Method": "GetAll",
     "RelativePath": "api/Themes",
