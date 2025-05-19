@@ -3,16 +3,128 @@
   "WorkspaceRootPath": "C:\\github\\pelican-magazine-backend-2025s\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\articlereviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\articlereviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\responses\\articlemoderationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\responses\\articlemoderationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\moderationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\moderationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticletheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticletheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticleagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticleagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticlemoderation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticlemoderation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\createarticlerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\createarticlerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\agecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\agecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\enums\\articlestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\enums\\articlestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\articlemoderationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\articlemoderationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\auth\\verify2farequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\auth\\verify2farequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\auth\\enable2farequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\auth\\enable2farequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\responses\\authorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\responses\\authorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\responses\\articlefullresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\responses\\articlefullresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\createarticlerequestfrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\createarticlerequestfrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\articlethemescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\articlethemescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\requestrevisionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +135,8 @@
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\rejectarticlerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\moderationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\moderationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\articlemoderationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\articlemoderationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticlemoderation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticlemoderation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -49,22 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,16 +159,8 @@
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\responses\\likeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\themerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dblike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dblike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbtheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,10 +173,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,32 +191,16 @@
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\auth\\verifyemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\auth\\enable2farequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\auth\\enable2farequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\responses\\articleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\responses\\articleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\articlethemescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\articlethemescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\articleagecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -157,18 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticlereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticlereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticletheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticletheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbarticleagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbarticleagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\models\\dbagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\models\\dbagecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\createreviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -207,10 +247,6 @@
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\createarticleagecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\agecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\agecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\controllers\\agecategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\controllers\\agecategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -227,28 +263,12 @@
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\createagecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\repositories\\articlereviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\repositories\\articlereviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\responses\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\sql\\fillagecategoriestable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\sql\\fillagecategoriestable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\enums\\articlestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\enums\\articlestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\updatearticlestatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\updatearticlestatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\createarticlerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\contracts\\requests\\createarticlerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\contracts\\requests\\articlefilterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -273,10 +293,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\sql\\filldatabase.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\sql\\filldatabase.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|c:\\github\\pelican-magazine-backend-2025s\\webapplication6\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C569BDFD-1E12-4232-8B7F-163DCB659060}|WebApplication6\\Backend.csproj|solutionrelative:webapplication6\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -286,102 +302,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArticleModerationResponse.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "CreateArticleRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:17:07.28Z",
+              "WhenOpened": "2025-04-22T22:40:59.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Services\\EmailService.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\EmailService.cs",
+              "RelativeToolTip": "WebApplication6\\Services\\EmailService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:59:28.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RequestRevisionRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:16:43.748Z",
+              "WhenOpened": "2025-05-14T03:47:23.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RejectArticleRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Title": "DbUser.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUser.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbUser.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUser.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbUser.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wCIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:16:07.634Z",
+              "WhenOpened": "2025-04-22T20:37:19.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication6\\appsettings.json",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.json",
+              "RelativeToolTip": "WebApplication6\\appsettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T09:20:44.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication6\\appsettings.Development.json",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication6\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T09:14:41.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ArticleReviewRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleReviewRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleReviewRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleReviewRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleReviewRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvywAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T21:07:21.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbArticleTheme.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleTheme.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticleTheme.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleTheme.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbArticleTheme.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:45:07.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ModerationController.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ModerationController.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Controllers\\ModerationController.cs",
               "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ModerationController.cs",
               "RelativeToolTip": "WebApplication6\\Controllers\\ModerationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAUwIoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:15:42.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T08:15:42.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Services\\JwtService.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\JwtService.cs",
+              "RelativeToolTip": "WebApplication6\\Services\\JwtService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T03:46:24.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Program.cs",
               "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Program.cs",
               "RelativeToolTip": "WebApplication6\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:14:34.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ArticleRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwEwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:51:14.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ArticleModerationRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleModerationRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleModerationRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleModerationRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleModerationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:15:07.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T19:14:34.154Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ArticleModerationResponse.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\ArticleModerationResponse.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:17:07.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbArticleAgeCategory.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleAgeCategory.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticleAgeCategory.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleAgeCategory.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbArticleAgeCategory.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:43:00.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "DbArticleModeration.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleModeration.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticleModeration.cs",
@@ -389,408 +474,47 @@
               "RelativeToolTip": "WebApplication6\\Models\\DbArticleModeration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:13:35.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Services\\JwtService.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\JwtService.cs",
-              "RelativeToolTip": "WebApplication6\\Services\\JwtService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:46:24.563Z"
+              "WhenOpened": "2025-05-18T08:13:35.097Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Services\\EmailService.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Services\\EmailService.cs",
-              "RelativeToolTip": "WebApplication6\\Services\\EmailService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAADEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:50:07.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DbUser.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUser.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbUser.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUser.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbUser.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:37:19.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LikeRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\LikeRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\LikeRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\LikeRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\LikeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:05:46.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\DataAccess\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\DataAccess\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\DataAccess\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebApplication6\\DataAccess\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:47:52.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserProfileController.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UserProfileController.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\UserProfileController.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UserProfileController.cs",
-              "RelativeToolTip": "WebApplication6\\Controllers\\UserProfileController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:05:12.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LikesController.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\LikesController.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\LikesController.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\LikesController.cs",
-              "RelativeToolTip": "WebApplication6\\Controllers\\LikesController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:06:48.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebApplication6\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:47:23.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
-              "RelativeDocumentMoniker": "pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
-              "RelativeToolTip": "pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-14T12:02:27.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:49:57.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LikeResponse.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:09:27.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ThemeRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ThemeRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ThemeRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ThemeRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\ThemeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:04:46.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DbLike.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbLike.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbLike.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbLike.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbLike.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T16:41:30.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DbArticle.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticle.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticle.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticle.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbArticle.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA6wB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:39:33.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DbTheme.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbTheme.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbTheme.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbTheme.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbTheme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:43:58.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ArticleDetailResponse.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:18:53.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication6\\appsettings.json",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.json",
-              "RelativeToolTip": "WebApplication6\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T09:20:44.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UpdateUserRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:15:42.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WebApplication6\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:18:18.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DbUserType.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUserType.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbUserType.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUserType.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbUserType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:51:23.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CreateUserRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T22:31:46.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "VerifyEmailRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:43:11.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:42:16.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:41:36.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Enable2faRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:43:48.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ArticleResponse.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:49:07.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
               "Title": "ArticlesController.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticlesController.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Controllers\\ArticlesController.cs",
               "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticlesController.cs",
               "RelativeToolTip": "WebApplication6\\Controllers\\ArticlesController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAUwPYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T21:19:12.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApplication6\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApplication6\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-22T19:32:59.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ArticleThemesController.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticleThemesController.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\ArticleThemesController.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticleThemesController.cs",
-              "RelativeToolTip": "WebApplication6\\Controllers\\ArticleThemesController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "AgeCategoryRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\AgeCategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\AgeCategoryRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\AgeCategoryRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\AgeCategoryRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:22:48.981Z"
+              "WhenOpened": "2025-04-22T21:02:47.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ArticleAgeCategoryRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAApAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ThemeRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ThemeRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ThemeRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ThemeRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\ThemeRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:03:52.29Z"
+              "WhenOpened": "2025-04-22T21:04:46.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "DbArticleReview.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleReview.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticleReview.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleReview.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbArticleReview.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:46:41.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DbArticleTheme.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleTheme.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticleTheme.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleTheme.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbArticleTheme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:45:07.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "DbArticleAgeCategory.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleAgeCategory.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticleAgeCategory.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleAgeCategory.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\DbArticleAgeCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:43:00.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 17,
               "Title": "DbAgeCategory.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbAgeCategory.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\DbAgeCategory.cs",
@@ -802,7 +526,414 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ArticleStatus.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:19:58.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ArticleModerationRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleModerationRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleModerationRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleModerationRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleModerationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:15:07.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ArticleRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwEkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:51:14.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DbArticle.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticle.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticle.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticle.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbArticle.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:39:33.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LikesController.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\LikesController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\LikesController.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\LikesController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\LikesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:06:48.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\UserResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\UserResponse.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\UserResponse.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:36:13.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Verify2FaRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\Verify2FaRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\Verify2FaRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\Verify2FaRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\Verify2FaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:23:14.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthorResponse.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\AuthorResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\AuthorResponse.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\AuthorResponse.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\AuthorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:22:27.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ArticleFullResponse.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleFullResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ArticleFullResponse.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleFullResponse.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\ArticleFullResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:14:50.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateArticleRequestFrontend.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleRequestFrontend.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateArticleRequestFrontend.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleRequestFrontend.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\CreateArticleRequestFrontend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:13:57.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Enable2faRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\Enable2faRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T03:43:48.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ArticleThemesController.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticleThemesController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\ArticleThemesController.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticleThemesController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\ArticleThemesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T21:22:48.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T03:42:16.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RejectArticleRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\RejectArticleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:16:07.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RequestRevisionRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\RequestRevisionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:16:43.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LikeRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\LikeRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\LikeRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\LikeRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\LikeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:05:46.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\DataAccess\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApplication6\\DataAccess\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:47:52.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:05:12.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
+              "RelativeDocumentMoniker": "pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
+              "RelativeToolTip": "pelican-magazine-backend-2025s\\WebApplication6\\Dockerfile",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-14T12:02:27.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:49:57.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LikeResponse.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\LikeResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:09:27.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DbLike.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbLike.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbLike.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbLike.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbLike.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:41:30.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DbTheme.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbTheme.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbTheme.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbTheme.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbTheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:43:58.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ArticleDetailResponse.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\ArticleDetailResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:18:53.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:15:42.264Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 42,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T21:18:18.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DbUserType.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUserType.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbUserType.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbUserType.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbUserType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:51:23.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:31:46.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "VerifyEmailRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\VerifyEmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T03:43:11.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T03:41:36.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ArticleResponse.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
+              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\ArticleResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:49:07.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication6\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication6\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T19:32:59.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ArticleAgeCategoryRepository.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
+              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleAgeCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T21:03:52.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DbArticleReview.cs",
+              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleReview.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\DbArticleReview.cs",
+              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Models\\DbArticleReview.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\DbArticleReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:46:41.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "CreateReviewRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateReviewRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateReviewRequest.cs",
@@ -814,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "CreateThemeRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateThemeRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateThemeRequest.cs",
@@ -826,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 56,
               "Title": "ThemeResponse.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ThemeResponse.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ThemeResponse.cs",
@@ -838,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 54,
               "Title": "UpdateThemeRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\UpdateThemeRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\UpdateThemeRequest.cs",
@@ -850,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "UpdateArticleRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\UpdateArticleRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\UpdateArticleRequest.cs",
@@ -862,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 53,
               "Title": "ThemesController.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ThemesController.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Controllers\\ThemesController.cs",
@@ -874,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 60,
               "Title": "CreateArticleAgeCategoryRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleAgeCategoryRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateArticleAgeCategoryRequest.cs",
@@ -886,19 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "AgeCategoryRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\AgeCategoryRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\AgeCategoryRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\AgeCategoryRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\AgeCategoryRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwBwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:02:47.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "CreateArticleThemeRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleThemeRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateArticleThemeRequest.cs",
@@ -910,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "ArticleAgeCategoriesController.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticleAgeCategoriesController.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Controllers\\ArticleAgeCategoriesController.cs",
@@ -922,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "AgeCategoriesController.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\AgeCategoriesController.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Controllers\\AgeCategoriesController.cs",
@@ -934,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "ArticleReviewsController.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Controllers\\ArticleReviewsController.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Controllers\\ArticleReviewsController.cs",
@@ -946,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "AgeCategoryResponse.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\AgeCategoryResponse.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\AgeCategoryResponse.cs",
@@ -958,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "CreateAgeCategoryRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateAgeCategoryRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateAgeCategoryRequest.cs",
@@ -970,31 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "ArticleReviewRepository.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleReviewRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleReviewRepository.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleReviewRepository.cs",
-              "RelativeToolTip": "WebApplication6\\Repositories\\ArticleReviewRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:07:21.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "UserResponse.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\UserResponse.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\UserResponse.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\UserResponse.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Responses\\UserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T22:36:13.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "FillAgeCategoriesTable.sql",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\SQL\\FillAgeCategoriesTable.sql",
               "RelativeDocumentMoniker": "WebApplication6\\SQL\\FillAgeCategoriesTable.sql",
@@ -1005,19 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "ArticleStatus.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Enums\\ArticleStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:19:58.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "UpdateArticleStatusRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\UpdateArticleStatusRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\UpdateArticleStatusRequest.cs",
@@ -1029,19 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "CreateArticleRequest.cs",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
-              "RelativeToolTip": "WebApplication6\\Contracts\\Requests\\CreateArticleRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T22:40:59.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "ArticleFilterRequest.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Requests\\ArticleFilterRequest.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Requests\\ArticleFilterRequest.cs",
@@ -1053,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "ReviewDetailResponse.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ReviewDetailResponse.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ReviewDetailResponse.cs",
@@ -1065,7 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "ReviewResponse.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\ReviewResponse.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\ReviewResponse.cs",
@@ -1077,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "UserDetailResponse.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Contracts\\Responses\\UserDetailResponse.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Contracts\\Responses\\UserDetailResponse.cs",
@@ -1089,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "ArticleThemeRepository.cs",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\Repositories\\ArticleThemeRepository.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Repositories\\ArticleThemeRepository.cs",
@@ -1101,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "FillDatabase.bat",
               "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\SQL\\FillDatabase.bat",
               "RelativeDocumentMoniker": "WebApplication6\\SQL\\FillDatabase.bat",
@@ -1110,18 +1181,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
               "WhenOpened": "2025-04-30T10:20:27.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebApplication6\\appsettings.Development.json",
-              "ToolTip": "C:\\github\\pelican-magazine-backend-2025s\\WebApplication6\\appsettings.Development.json",
-              "RelativeToolTip": "WebApplication6\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T09:14:41.113Z"
             }
           ]
         }

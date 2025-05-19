@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend.Models;
 
@@ -9,9 +10,15 @@ public class DbArticleTheme
 
     public Guid ArticleThemeId { get; set; } = Guid.NewGuid();
     public Guid ThemeId { get; set; }
-    public DbTheme? Theme { get; set; }
     public Guid ArticleId { get; set; }
-    public DbArticle? Article { get; set; }
+
+    [ForeignKey("ThemeId")]
+    public DbTheme Theme { get; set; }
+
+    public string ThemeName { get; set; }
+
+    [ForeignKey("ArticleId")]
+    public DbArticle Article { get; set; }
 }
 
 public class DbArticleThemeConfiguration : IEntityTypeConfiguration<DbArticleTheme>

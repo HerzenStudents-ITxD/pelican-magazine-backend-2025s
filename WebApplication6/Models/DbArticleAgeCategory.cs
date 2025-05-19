@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend.Models;
 
@@ -9,8 +10,13 @@ public class DbArticleAgeCategory
 
     public Guid ArticleAgeId { get; set; } = Guid.NewGuid();
     public Guid AgeCategoryId { get; set; }
-    public DbAgeCategory AgeCategory { get; set; }
     public Guid ArticleId { get; set; }
+    public string CategoryName { get; set; }
+
+    [ForeignKey("AgeCategoryId")]
+    public DbAgeCategory AgeCategory { get; set; }
+
+    [ForeignKey("ArticleId")]
     public DbArticle Article { get; set; }
 }
 

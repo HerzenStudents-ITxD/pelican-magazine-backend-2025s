@@ -3,7 +3,9 @@
 public enum ArticleStatus
 {
     Draft,
+    PendingModeration,
     Published,
+    Rejected,
     Archived,
-    Banned
+    Banned 
 }

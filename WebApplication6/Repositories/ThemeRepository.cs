@@ -44,4 +44,10 @@ public class ThemeRepository
             await _context.SaveChangesAsync();
         }
     }
+
+    public async Task<DbAgeCategory?> GetByNameAsync(string name)
+    {
+        return await _context.AgeCategories
+            .FirstOrDefaultAsync(a => a.CategoryName == name);
+    }
 }

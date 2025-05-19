@@ -72,6 +72,45 @@ public class ArticleRepository
                 .ThenInclude(aac => aac.AgeCategory)
             .Include(a => a.ArticleThemes)
                 .ThenInclude(at => at.Theme)
+            .OrderByDescending(a => a.ChangedAt)
             .ToListAsync();
     }
+
+
+    public async Task<List<DbArticle>> GetByAuthorIdAsync(Guid authorId)
+    {
+        return await _context.Articles
+            .Where(a => a.AuthorId == authorId)
+            .Include(a => a.Author)
+            .Include(a => a.ArticleAgeCategories)
+                .ThenInclude(aac => aac.AgeCategory)
+            .Include(a => a.ArticleThemes)
+                .ThenInclude(at => at.Theme)
+            .OrderByDescending(a => a.ChangedAt)
+            .ToListAsync();
+    }
+
+    public async Task<List<DbArticle>> GetPublishedByAuthorIdAsync(Guid authorId)
+    {
+        return await _context.Articles
+            .Where(a => a.AuthorId == authorId && a.Status == ArticleStatus.Published)
+            .Include(a => a.Author)
+            .Include(a => a.ArticleAgeCategories)
+                .ThenInclude(aac => aac.AgeCategory)
+            .Include(a => a.ArticleThemes)
+                .ThenInclude(at => at.Theme)
+            .OrderByDescending(a => a.ChangedAt)
+            .ToListAsync();
+    }
+
+    public async Task<List<DbArticle>> GetPendingModerationArticles()
+    {
+        return await _context.Articles
+            .Where(a => a.Status == ArticleStatus.PendingModeration)
+            .Include(a => a.Author)
+            .OrderByDescending(a => a.ChangedAt)
+            .ToListAsync();
+    }
+
+
 }

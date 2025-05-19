@@ -14,12 +14,15 @@ public class DbArticle
     public required string Title { get; set; }
     public required string Description { get; set; }
     public required string Text { get; set; }
+    public string? Summary { get; set; }
     public string? Thumbnail { get; set; }
     public DateTime ChangedAt { get; set; } = DateTime.UtcNow;
     public ArticleStatus Status { get; set; } = ArticleStatus.Draft;
 
     public required Guid AuthorId { get; set; }
+    [ForeignKey("AuthorId")]
     public required DbUser Author { get; set; }
+
 
     // Навигационные свойства
     public ICollection<DbArticleAgeCategory> ArticleAgeCategories { get; set; } = new List<DbArticleAgeCategory>();

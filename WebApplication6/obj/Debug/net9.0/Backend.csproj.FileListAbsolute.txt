@@ -731,3 +731,4 @@ C:\github\pelican-magazine-backend-2025s\WebApplication6\obj\Debug\net9.0\refint
 C:\github\pelican-magazine-backend-2025s\WebApplication6\obj\Debug\net9.0\Backend.pdb
 C:\github\pelican-magazine-backend-2025s\WebApplication6\obj\Debug\net9.0\Backend.genruntimeconfig.cache
 C:\github\pelican-magazine-backend-2025s\WebApplication6\obj\Debug\net9.0\ref\Backend.dll
+C:\github\pelican-magazine-backend-2025s\WebApplication6\bin\Debug\net9.0\Backend.staticwebassets.runtime.json

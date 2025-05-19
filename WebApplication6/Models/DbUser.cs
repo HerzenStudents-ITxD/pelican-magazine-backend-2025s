@@ -33,6 +33,10 @@ public class DbUser
     public DateTime? EmailVerificationTokenExpiry { get; set; } // Срок действия токена
                                                                 // Роль пользователя
     public UserType UserType { get; set; } = UserType.Other;
+   
+    public DateTime? TwoFactorSecretExpiry { get; set; }
+
+
 
 
     // Навигационные свойства

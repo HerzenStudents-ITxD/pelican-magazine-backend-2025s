@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using System.Text.Json;
 using Backend.Contracts.Enums;
+using System.Linq;
 
 namespace Backend.Controllers;
 
@@ -30,11 +31,17 @@ public class ModerationController : ControllerBase
     }
 
     [HttpGet("pending")]
+    [Authorize(Roles = "Moderator,Admin")]
     public async Task<IActionResult> GetPendingArticles()
     {
-        var articles = await _moderationRepository.GetPendingModerationsAsync();
-        var response = articles.Select(a => new ArticleModerationResponse(a));
-        return Ok(response);
+        var articles = await _articleRepository.GetByStatusAsync(ArticleStatus.PendingModeration);
+        return Ok(articles.Select(a => new ArticleModerationResponse
+        {
+            ArticleId = a.ArticleId,
+            ArticleTitle = a.Title,
+            AuthorName = $"{a.Author.Name} {a.Author.LastName}",
+            // Другие необходимые поля
+        }));
     }
 
     [HttpGet("article/{articleId}")]

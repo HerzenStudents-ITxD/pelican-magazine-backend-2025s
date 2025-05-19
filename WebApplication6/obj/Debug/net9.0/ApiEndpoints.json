@@ -249,7 +249,7 @@
   },
   {
     "ContainingType": "Backend.Controllers.ArticlesController",
-    "Method": "Create",
+    "Method": "CreateArticle",
     "RelativePath": "api/Articles",
     "HttpMethod": "POST",
     "IsController": true,
@@ -318,6 +318,27 @@
   },
   {
     "ContainingType": "Backend.Controllers.ArticlesController",
+    "Method": "UploadCover",
+    "RelativePath": "api/Articles/{id}/cover",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ArticlesController",
     "Method": "UpdateStatus",
     "RelativePath": "api/Articles/{id}/status",
     "HttpMethod": "PUT",
@@ -332,6 +353,38 @@
       {
         "Name": "request",
         "Type": "Backend.Contracts.Requests.UpdateArticleStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ArticlesController",
+    "Method": "GetLikedArticles",
+    "RelativePath": "api/Articles/liked/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ArticlesController",
+    "Method": "GetByAuthorId",
+    "RelativePath": "api/Articles/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -483,6 +536,32 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AuthController",
+    "Method": "TestEmail",
+    "RelativePath": "api/auth/test-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AuthController",
+    "Method": "Verify2Fa",
+    "RelativePath": "api/auth/verify-2fa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Backend.Contracts.Requests.Auth.Verify2FaRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

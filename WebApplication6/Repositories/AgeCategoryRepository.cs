@@ -53,4 +53,13 @@ public class AgeCategoryRepository
             await _context.SaveChangesAsync();
         }
     }
+
+    public async Task<DbTheme?> GetByNameAsync(string name)
+    {
+        return await _context.Themes
+            .FirstOrDefaultAsync(t => t.ThemeName == name);
+    }
+
+
+    
 }

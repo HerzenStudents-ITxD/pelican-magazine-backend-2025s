@@ -13,10 +13,11 @@ using MimeKit;
 using MailKit.Net.Smtp;
 using MailKit.Security;
 using Microsoft.AspNetCore.Hosting;
+using Backend.Contracts.Responses;
 
 
 namespace Backend.Controllers;
-[Authorize]
+
 [ApiController]
 [Route("api/auth")]
 public class AuthController : ControllerBase
@@ -95,18 +96,44 @@ public class AuthController : ControllerBase
         if (user.TwoFactorEnabled)
         {
             if (string.IsNullOrEmpty(request.TwoFactorCode))
-                return BadRequest(new { Requires2fa = true });
+            {
+                // Генерируем 6-значный код
+                var code = new Random().Next(100000, 999999).ToString();
 
-            var isValid = VerifyTwoFactorCode(user.TwoFactorSecret, request.TwoFactorCode);
-            if (!isValid)
-                return Unauthorized("Неверный код 2FA");
+                // Сохраняем временно в поле TwoFactorSecret
+                user.TwoFactorSecret = code;
+                user.TwoFactorSecretExpiry = DateTime.UtcNow.AddMinutes(10); // добавь это поле в модель
+                await _userRepository.UpdateAsync(user);
+
+                // Отправляем код
+                await _emailService.SendTwoFactorCode(user.Email, code);
+
+                return BadRequest(new { Requires2fa = true });
+            }
+
+            // Проверка кода
+            if (user.TwoFactorSecret != request.TwoFactorCode || user.TwoFactorSecretExpiry < DateTime.UtcNow)
+            {
+                return Unauthorized("Неверный или просроченный код 2FA");
+            }
         }
+
+
 
         // Генерация токена
         var token = _jwtService.GenerateToken(user);
 
         return Ok(new { Token = token });
+
     }
+
+    [HttpGet("test-email")]
+    public async Task<IActionResult> TestEmail()
+    {
+        await _emailService.SendVerificationEmail("твой_email@mail.ru", "FAKE_TOKEN");
+        return Ok("Письмо отправлено");
+    }
+
 
     [HttpPost("verify-email")]
     public async Task<IActionResult> VerifyEmail(VerifyEmailRequest request)
@@ -171,11 +198,53 @@ public class AuthController : ControllerBase
         });
     }
 
+    [HttpPost("verify-2fa")]
+    [AllowAnonymous]
+    public async Task<IActionResult> Verify2Fa([FromBody] Verify2FaRequest request)
+    {
+        // 1. Находим пользователя по email
+        var user = await _userRepository.GetByEmailAsync(request.Email);
+        if (user == null)
+            return Unauthorized(new { Message = "User not found" });
+
+        // 2. Проверяем, что 2FA включена для пользователя
+        if (!user.TwoFactorEnabled || string.IsNullOrEmpty(user.TwoFactorSecret))
+            return BadRequest(new { Message = "2FA is not enabled for this user" });
+
+        // 3. Проверяем код
+        var isValid = VerifyTwoFactorCode(user.TwoFactorSecret, request.Code);
+        if (!isValid)
+            return Unauthorized(new { Message = "Invalid 2FA code" });
+
+        // 4. Генерируем токен
+        var token = _jwtService.GenerateToken(user);
+
+        // 5. Возвращаем токен
+        return Ok(new
+        {
+            Token = token,
+            User = new UserResponse
+            {
+                UserId = user.UserId,
+                Name = user.Name,
+                LastName = user.LastName,
+                Email = user.Email
+            }
+        });
+    }
+
     private bool VerifyTwoFactorCode(string secret, string code)
     {
-        var key = Base32Encoding.ToBytes(secret);
-        var totp = new Totp(key);
-        return totp.VerifyTotp(code, out _, new VerificationWindow(2, 2));
+        try
+        {
+            var keyBytes = Base32Encoding.ToBytes(secret);
+            var totp = new Totp(keyBytes);
+            return totp.VerifyTotp(code, out _, new VerificationWindow(2, 2));
+        }
+        catch
+        {
+            return false;
+        }
     }
 
     [HttpPost("init-admin")]

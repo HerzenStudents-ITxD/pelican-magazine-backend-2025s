@@ -346,6 +346,95 @@
         }
       }
     },
+    "/api/Articles/user/{userId}": {
+      "get": {
+        "tags": [
+          "Articles"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Articles/liked/{userId}": {
+      "get": {
+        "tags": [
+          "Articles"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Articles/{id}/cover": {
+      "post": {
+        "tags": [
+          "Articles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Articles": {
       "get": {
         "tags": [
@@ -699,6 +788,18 @@
         }
       }
     },
+    "/api/auth/test-email": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/auth/verify-email": {
       "post": {
         "tags": [
@@ -766,6 +867,37 @@
         "tags": [
           "Auth"
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/verify-2fa": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Verify2FaRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Verify2FaRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Verify2FaRequest"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -1379,7 +1511,9 @@
       "ArticleStatus": {
         "enum": [
           "Draft",
+          "PendingModeration",
           "Published",
+          "Rejected",
           "Archived",
           "Banned"
         ],
@@ -1419,15 +1553,15 @@
       },
       "CreateArticleRequest": {
         "required": [
-          "authorId",
           "description",
+          "summary",
           "text",
           "title"
         ],
         "type": "object",
         "properties": {
           "title": {
-            "maxLength": 100,
+            "maxLength": 200,
             "minLength": 0,
             "type": "string"
           },
@@ -1440,28 +1574,23 @@
             "minLength": 1,
             "type": "string"
           },
+          "summary": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ageRestriction": {
+            "type": "string",
+            "nullable": true
+          },
           "thumbnail": {
             "type": "string",
-            "nullable": true
-          },
-          "authorId": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "ageCategoryIds": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "format": "uuid"
-            },
-            "nullable": true
-          },
-          "themeIds": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "format": "uuid"
-            },
             "nullable": true
           }
         },
@@ -1609,6 +1738,10 @@
             "type": "string",
             "nullable": true
           },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          },
           "thumbnail": {
             "type": "string",
             "nullable": true
@@ -1669,12 +1802,16 @@
             "type": "string",
             "format": "uuid"
           },
-          "ageCategory": {
-            "$ref": "#/components/schemas/DbAgeCategory"
-          },
           "articleId": {
             "type": "string",
             "format": "uuid"
+          },
+          "categoryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ageCategory": {
+            "$ref": "#/components/schemas/DbAgeCategory"
           },
           "article": {
             "$ref": "#/components/schemas/DbArticle"
@@ -1725,12 +1862,16 @@
             "type": "string",
             "format": "uuid"
           },
-          "theme": {
-            "$ref": "#/components/schemas/DbTheme"
-          },
           "articleId": {
             "type": "string",
             "format": "uuid"
+          },
+          "theme": {
+            "$ref": "#/components/schemas/DbTheme"
+          },
+          "themeName": {
+            "type": "string",
+            "nullable": true
           },
           "article": {
             "$ref": "#/components/schemas/DbArticle"
@@ -1888,6 +2029,11 @@
           },
           "userType": {
             "$ref": "#/components/schemas/UserType"
+          },
+          "twoFactorSecretExpiry": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
           },
           "articles": {
             "type": "array",
@@ -2156,6 +2302,9 @@
           "email": {
             "type": "string",
             "nullable": true
+          },
+          "twoFactorEnabled": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -2169,6 +2318,26 @@
           "Other"
         ],
         "type": "string"
+      },
+      "Verify2FaRequest": {
+        "required": [
+          "code",
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "code": {
+            "maxLength": 6,
+            "minLength": 6,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
       },
       "VerifyEmailRequest": {
         "required": [

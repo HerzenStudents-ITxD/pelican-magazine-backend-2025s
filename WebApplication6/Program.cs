@@ -8,8 +8,10 @@ using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseWebRoot("wwwroot");
 
 // Конфигурация сервисов
 builder.Services.AddControllers()
@@ -26,14 +28,16 @@ builder.Services.AddHealthChecks();
 // Настройка CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("ReactDevClient", policy =>
+    options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:3172")
+        policy.WithOrigins("http://localhost:5173")
               .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials();
+              .AllowAnyMethod();
     });
 });
+
+
+
 
 
 
@@ -101,6 +105,24 @@ using (var scope = app.Services.CreateScope())
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     await dbContext.Database.EnsureCreatedAsync();
 }
+
+var webRootPath = builder.Environment.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+var coversPath = Path.Combine(webRootPath, "article-covers");
+
+// Создать директорию, если её нет
+if (!Directory.Exists(coversPath))
+{
+    Directory.CreateDirectory(coversPath);
+}
+
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(coversPath),
+    RequestPath = "/article-covers"
+});
+
+app.UseCors("AllowReactApp");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseRateLimiter();
