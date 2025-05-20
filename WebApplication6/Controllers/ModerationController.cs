@@ -13,7 +13,7 @@ namespace Backend.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize(Roles = "Moderator,Admin")]
+//[Authorize(Roles = "Moderator,Admin")]
 public class ModerationController : ControllerBase
 {
     private readonly ArticleModerationRepository _moderationRepository;
@@ -31,7 +31,7 @@ public class ModerationController : ControllerBase
     }
 
     [HttpGet("pending")]
-    [Authorize(Roles = "Moderator,Admin")]
+    //[Authorize(Roles = "Moderator,Admin")]
     public async Task<IActionResult> GetPendingArticles()
     {
         var articles = await _articleRepository.GetByStatusAsync(ArticleStatus.PendingModeration);

@@ -44,7 +44,7 @@ public class UsersController : ControllerBase
             LastName = request.LastName,
             Email = request.Email,
             Birth = request.Birth,
-            Sex = request.Sex, // Добавляем обязательное поле
+            Sex = request.Sex,
             PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password, BCrypt.Net.BCrypt.GenerateSalt()),
             Sec = Guid.NewGuid().ToString()
         };

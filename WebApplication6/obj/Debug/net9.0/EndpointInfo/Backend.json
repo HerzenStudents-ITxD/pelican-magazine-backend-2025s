@@ -1554,7 +1554,6 @@
       "CreateArticleRequest": {
         "required": [
           "description",
-          "summary",
           "text",
           "title"
         ],
@@ -1575,8 +1574,13 @@
             "type": "string"
           },
           "summary": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
+          },
+          "authorId": {
+            "pattern": "^[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}$",
+            "type": "string",
+            "nullable": true
           },
           "categories": {
             "type": "array",
@@ -1714,7 +1718,6 @@
       },
       "DbArticle": {
         "required": [
-          "author",
           "authorId",
           "description",
           "text",

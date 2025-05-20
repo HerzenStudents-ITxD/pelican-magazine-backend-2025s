@@ -8,7 +8,7 @@ using Backend.Contracts.Enums;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Hosting;
-
+using Microsoft.EntityFrameworkCore; 
 namespace Backend.Controllers;
 
 [ApiController]
@@ -53,11 +53,15 @@ public class ArticlesController : ControllerBase
     }
 
     [HttpGet("liked/{userId}")]
-    [Authorize]
+    //[Authorize]
     public async Task<IActionResult> GetLikedArticles(Guid userId)
     {
-        // Проверка, что запрашивающий пользователь имеет доступ
-        var currentUserId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+        var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userIdClaim == null || !Guid.TryParse(userIdClaim, out var currentUserId))
+        {
+            return Unauthorized("User ID not found in token");
+        }
+
         if (currentUserId != userId)
         {
             return Forbid();
@@ -80,7 +84,7 @@ public class ArticlesController : ControllerBase
     }
 
     [HttpPost("{id}/cover")]
-    [Authorize]
+    //[Authorize]
     public async Task<IActionResult> UploadCover(Guid id, IFormFile file)
     {
         try
@@ -105,9 +109,11 @@ public class ArticlesController : ControllerBase
                 return NotFound("Article not found");
 
             // 5. Проверка прав пользователя
-            var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            if (article.AuthorId != userId)
-                return Forbid();
+            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null || !Guid.TryParse(userIdClaim, out var userId))
+            {
+                return Unauthorized("User ID not found in token");
+            }
 
             // 6. Генерация уникального имени файла
             var fileName = $"{Guid.NewGuid()}{extension}";
@@ -185,65 +191,44 @@ public class ArticlesController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize]
     public async Task<IActionResult> CreateArticle([FromBody] CreateArticleRequest request)
     {
-        var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-        var user = await _userRepository.GetByIdAsync(userId);
 
-        if (user == null) return Unauthorized();
-
-        var article = new DbArticle
+        try
         {
-            Title = request.Title,
-            Description = request.Description,
-            Text = request.Text,
-            Summary = request.Summary,
-            Thumbnail = request.Thumbnail,
-            AuthorId = userId,
-            Author = user,
-            Status = ArticleStatus.PendingModeration,
-            ChangedAt = DateTime.UtcNow
-        };
+            // Валидация
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-        await _articleRepository.AddAsync(article);
+            // Получаем реального пользователя (пример)
+            var userId = Guid.Parse("VALID_USER_ID");
+            var user = await _userRepository.GetByIdAsync(userId);
+            if (user == null)
+                return BadRequest("Author not found");
 
-        // Обработка возрастного ограничения
-        if (!string.IsNullOrEmpty(request.AgeRestriction))
-        {
-            var ageCategories = await _ageCategoryRepository.GetAllAsync();
-            var ageCategory = ageCategories.FirstOrDefault(ac =>
-                ac.CategoryName.Equals(request.AgeRestriction, StringComparison.OrdinalIgnoreCase));
-
-            if (ageCategory != null)
+            var article = new DbArticle
             {
-                await _ageCategoryRepository.AddAsync(new DbArticleAgeCategory
-                {
-                    ArticleId = article.ArticleId,
-                    AgeCategoryId = ageCategory.AgeCategoryId
-                });
-            }
-        }
+                Title = request.Title,
+                Description = request.Description,
+                Text = request.Text,
+                Summary = request.Summary,
+                Thumbnail = request.Thumbnail,
+                AuthorId = user.UserId,  // Устанавливаем существующий ID
+                Status = ArticleStatus.PendingModeration,
+                ChangedAt = DateTime.UtcNow
+            };
 
-        // Обработка категорий
-        foreach (var categoryName in request.Categories)
+            await _articleRepository.AddAsync(article);
+            return Ok(new ArticleResponse(article));
+        }
+        catch (DbUpdateException ex)
         {
-            var themes = await _themeRepository.GetAllAsync();
-            var theme = themes.FirstOrDefault(t =>
-                t.ThemeName.Equals(categoryName, StringComparison.OrdinalIgnoreCase));
-
-            if (theme != null)
-            {
-                await _themeRepository.AddAsync(new DbArticleTheme
-                {
-                    ArticleId = article.ArticleId,
-                    ThemeId = theme.ThemeId
-                });
-            }
+            return StatusCode(500, $"Database error: {ex.InnerException?.Message}");
         }
-
-        return CreatedAtAction(nameof(GetById), new { id = article.ArticleId },
-            new ArticleResponse(article));
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Error: {ex.Message}");
+        }
     }
 
     [HttpPut("{id}")]

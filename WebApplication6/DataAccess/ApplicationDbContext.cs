@@ -61,5 +61,10 @@ public class ApplicationDbContext : DbContext
        .ToTable("Themes_Article")
        .HasKey(at => at.ArticleThemeId);
         modelBuilder.ApplyConfiguration(new DbArticleReviewConfiguration());
+        modelBuilder.Entity<DbArticle>()
+        .HasOne(a => a.Author)
+        .WithMany(u => u.Articles)
+        .HasForeignKey(a => a.AuthorId)
+        .OnDelete(DeleteBehavior.Restrict);
     }
 }

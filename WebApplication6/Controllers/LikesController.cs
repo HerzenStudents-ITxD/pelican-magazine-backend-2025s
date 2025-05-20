@@ -9,7 +9,7 @@ namespace Backend.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+//[Authorize]
 public class LikesController : ControllerBase
 {
     private readonly LikeRepository _likeRepository;

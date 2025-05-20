@@ -3,6 +3,7 @@ using Backend.Contracts.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Backend.DataAccess;
+using System.ComponentModel.DataAnnotations;
 
 namespace Backend.Models;
 
@@ -18,10 +19,13 @@ public class DbArticle
     public string? Thumbnail { get; set; }
     public DateTime ChangedAt { get; set; } = DateTime.UtcNow;
     public ArticleStatus Status { get; set; } = ArticleStatus.Draft;
+    [Required]
+    public Guid AuthorId { get; set; }
 
-    public required Guid AuthorId { get; set; }
-    [ForeignKey("AuthorId")]
-    public required DbUser Author { get; set; }
+    public DbUser? Author { get; set; }
+    
+
+    
 
 
     // Навигационные свойства

@@ -41,7 +41,7 @@ public class AgeCategoriesController : ControllerBase
     {
         if (!ModelState.IsValid)
         {
-            return BadRequest(ModelState); // Вернёт ошибку, если CategoryName пустое
+            return BadRequest(ModelState); 
         }
 
         var category = new DbAgeCategory

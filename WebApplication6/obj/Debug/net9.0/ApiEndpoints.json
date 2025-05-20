@@ -257,7 +257,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Backend.Contracts.Requests.CreateArticleRequest",
+        "Type": "CreateArticleRequest",
         "IsRequired": true
       }
     ],

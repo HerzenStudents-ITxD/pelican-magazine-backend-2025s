@@ -38,9 +38,20 @@ public class ArticleRepository
 
     public async Task AddAsync(DbArticle article)
     {
+        // Проверка обязательных полей
+        if (article.AuthorId == Guid.Empty)
+            throw new ArgumentException("AuthorId is required");
+
+        // Проверка существования автора
+        var authorExists = await _context.Users.AnyAsync(u => u.UserId == article.AuthorId);
+        if (!authorExists)
+            throw new ArgumentException("Author not found");
+
         await _context.Articles.AddAsync(article);
         await _context.SaveChangesAsync();
     }
+
+
 
     public async Task UpdateAsync(DbArticle article)
     {
