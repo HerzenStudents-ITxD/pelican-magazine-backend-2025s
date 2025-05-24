@@ -1,25 +1,26 @@
 # Build Stage
 FROM mcr.microsoft.com/dotnet/sdk:9.0-preview AS build
+WORKDIR /src
+
+# 1. Копируем только файлы решения и проектов
+COPY ["pelican-magazine-backend-2025s.sln", "."]
+COPY ["WebApplication6/Backend.csproj", "WebApplication6/"]
+RUN dotnet restore "pelican-magazine-backend-2025s.sln"
+
+# 2. Копируем остальные файлы
+COPY . .
+
+# 3. Собираем проект
+WORKDIR "/src/WebApplication6"
+RUN dotnet build "Backend.csproj" -c Release -o /app/build
+
+# Publish Stage (используем тот же build-образ)
+FROM build AS publish
+WORKDIR "/src/WebApplication6"
+RUN dotnet publish "Backend.csproj" -c Release -o /app/publish
+
+# Final Stage
+FROM mcr.microsoft.com/dotnet/aspnet:9.0-preview AS final
 WORKDIR /app
-
-# Copy project files and restore dependencies
-COPY . ./
-RUN dotnet restore --no-cache --source https://api.nuget.org/v3/index.json
-
-# Build and publish the application
-COPY . ./
-RUN dotnet dev-certs https --trust
-RUN dotnet publish -c Release -o out
-
-# Runtime Stage
-FROM mcr.microsoft.com/dotnet/sdk:9.0-preview AS runtime
-WORKDIR /app
-
-COPY --from=build /app/out .
-COPY --from=build /root/.dotnet/corefx/cryptography/x509stores/my/* /root/.dotnet/corefx/cryptography/x509stores/my/
-
-ENV PATH="${PATH}:/usr/bin/dotnet"
-EXPOSE 80
-EXPOSE 443
-
-ENTRYPOINT ["dotnet", "backend.dll"]
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Backend.dll"]
